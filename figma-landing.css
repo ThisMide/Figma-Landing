@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,400;1,900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,100;1,200;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: montserrat, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 70px;
+  background-color: aquamarine;
+}
+
+.nav-div-one h2 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.nav-div-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 40px;
+  width: auto;
+  height: auto;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: yellowgreen;
+}
+
+.section-one {
+  background-color: rgb(55, 55, 252);
+}
+
+.section-two {
+  background-color: blueviolet;
+}
+
+.section-three {
+  background-color: rgb(184, 99, 99);
+}
