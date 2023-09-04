@@ -54,6 +54,26 @@ nav {
   gap: 30px;
 }
 
+.section-one h1 {
+  width: 1210px;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.section-one p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  width: 745px;
+}
+
+.section-one button {
+  padding: 19px 40px;
+  border-radius: 40px;
+  border: 40px;
+}
+
 .services {
   display: flex;
   flex-direction: column;
@@ -62,6 +82,25 @@ nav {
   justify-content: center;
   gap: 30px;
   background-color: blueviolet;
+}
+
+.section-label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-label h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.section-label h5 {
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  top: 25px;
 }
 
 .services-div-two {
@@ -106,6 +145,44 @@ nav {
 .services-card-p3 {
   font-size: 14px;
 }
-.section-three {
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 100px 60px;
+  gap: 30px;
   background-color: rgb(184, 99, 99);
+}
+
+.about-paragraph {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  /* line-height: 35px; */
+  margin: 1px 135px;
+}
+
+.about .about-list {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: minmax(200px, fit-content);
+  justify-content: space-between;
+  gap: 30px;
+  margin: 60px 135px 40px;
+
+  background-color: burlywood;
+}
+
+.about .about-list div {
+  /* display: flex; */
+  /* width: 300px; */
+  background-color: aquamarine;
+}
+
+.about .about-list span {
+  padding: 5px;
+  height: 1px;
+  border-radius: 20px;
+  background-color: aliceblue;
 }
