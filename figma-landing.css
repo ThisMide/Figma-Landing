@@ -186,3 +186,23 @@ nav {
   border-radius: 20px;
   background-color: aliceblue;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(60, 119, 1);
+}
+
+.gallery .gallery-video {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+}
+
+.gallery .gallery-video div {
+  background-color: chartreuse;
+}
+
+.contact-us {
+  background-color: chocolate;
+}
