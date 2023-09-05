@@ -210,4 +210,28 @@ nav {
 
 .contact-us {
   background-color: chocolate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us form .form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  gap: 10px 10px;
+  /* padding: fit-content; */
+  height: 743px;
+  width: 1040px;
+  background-color: yellow;
+}
+
+.form-grid-div {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+select {
+  padding: 20px 80px;
 }
