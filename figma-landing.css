@@ -94,13 +94,14 @@ nav {
 .section-label h1 {
   font-size: 64px;
   font-weight: 700;
+  opacity: 0.05;
 }
 
 .section-label h5 {
   font-size: 18px;
   font-weight: 700;
   position: absolute;
-  top: 25px;
+  top: 29px;
 }
 
 .services-div-two {
@@ -191,15 +192,19 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 30px 20px;
   background-color: rgb(60, 119, 1);
 }
 
 .gallery .gallery-video {
   display: grid;
   grid-template-columns: repeat(3, 250px);
+  gap: 60px 190px;
 }
 
 .gallery .gallery-video div {
+  height: 350px;
+  width: 400px;
   background-color: chartreuse;
 }
 
