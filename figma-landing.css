@@ -167,7 +167,7 @@ nav {
 .about .about-list {
   display: grid;
   grid-template-columns: repeat(3, 250px);
-  grid-template-rows: minmax(200px, fit-content);
+  /* grid-template-rows: minmax(200px, fit-content); */
   justify-content: space-between;
   gap: 30px;
   margin: 60px 135px 40px;
@@ -176,8 +176,11 @@ nav {
 }
 
 .about .about-list div {
-  /* display: flex; */
-  /* width: 300px; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 350px;
+  gap: 10px;
   background-color: aquamarine;
 }
 
@@ -228,10 +231,9 @@ nav {
 .form-grid-div {
   background-color: darkgray;
   display: flex;
-  flex-direction: column;
 }
 
 input,
 select {
-  padding: 20px 80px;
+  /* padding: 2px 50px; */
 }
