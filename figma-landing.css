@@ -5,14 +5,16 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: fit-content;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-top: 10px;
+  margin: 10px 50px;
   font-family: montserrat, sans-serif;
 }
 
@@ -41,6 +43,10 @@ nav {
   font-size: 14px;
   font-weight: 500;
   background-color: yellowgreen;
+}
+
+.nav-div-two li a {
+  text-decoration: none;
 }
 
 .section-one {
@@ -201,13 +207,17 @@ nav {
 
 .gallery .gallery-video {
   display: grid;
-  grid-template-columns: repeat(3, 250px);
-  gap: 60px 190px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .gallery .gallery-video div {
-  height: 350px;
-  width: 400px;
+  /* height: 200px;
+  width: 200px; */
   background-color: chartreuse;
 }
 
@@ -220,10 +230,10 @@ nav {
 
 .contact-us form .form-grid {
   display: grid;
-  grid-template-columns: repeat(2, 100px);
-  gap: 10px 10px;
-  /* padding: fit-content; */
-  height: 743px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 10px;
+  padding: 80px 65px 20px 65px;
+  /* height: 743px; */
   width: 1040px;
   background-color: yellow;
 }
@@ -231,9 +241,68 @@ nav {
 .form-grid-div {
   background-color: darkgray;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-input,
-select {
-  /* padding: 2px 50px; */
+.form-grid-div2 {
+  background-color: darkgray;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 2px 65px 65px;
+}
+
+.form-input {
+  /* height: 60px;
+  width: 450px; */
+  padding: 5px 85px 35px 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+#form-instructions {
+  padding: 5px 120px 200px 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+
+#form-submit {
+  height: 60px;
+  width: 1040px;
+  margin-top: 17px;
+  border-radius: 30px;
+  border: none;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1167px;
+  height: 200px;
+  background-color: aquamarine;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: center;
+  padding: auto;
+  width: 200px;
+  height: 70px;
+  background-color: rgb(48, 145, 112);
+}
+
+#footer-special {
+  padding-top: 15px;
+}
+
+#last-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  /* height: 158px; */
+  padding: 50px 100px;
+  background-color: azure;
 }

@@ -13,10 +13,10 @@
           <h2>GREY FRAME STUDIOS</h2>
         </div>
         <div class="nav-div-two">
-          <li>SERVICES</li>
-          <li>ABOUT</li>
-          <li>GALLERY</li>
-          <li>CONTACT</li>
+          <li><a href="#service-id">SERVICES</a></li>
+          <li><a href="#about-id">ABOUT</a></li>
+          <li><a href="#gallery-id">GALLERY</a></li>
+          <li><a href="#contact-id">CONTACT</a></li>
         </div>
       </nav>
 
@@ -29,7 +29,7 @@
         <button>Book Now</button>
       </section>
 
-      <section class="services">
+      <section class="services" id="service-id">
         <div class="section-label">
           <h1>SERVICES</h1>
           <h5>WHAT WE OFFER</h5>
@@ -82,7 +82,7 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section class="about" id="about-id">
         <div class="section-label">
           <h1>ABOUT</h1>
           <h5>WHO WE ARE</h5>
@@ -132,7 +132,7 @@
         </div>
       </section>
 
-      <section class="gallery">
+      <section class="gallery" id="gallery-id">
         <div class="section-label">
           <h1>GALLERY</h1>
           <h5>OUR WORK</h5>
@@ -204,7 +204,7 @@
         </div>
       </section>
 
-      <section class="contact-us">
+      <section class="contact-us" id="contact-id">
         <div class="section-label">
           <h1>CONTACT US</h1>
           <h5>BOOK NOW</h5>
@@ -215,6 +215,7 @@
               <div class="form-grid-div">
                 <p>Your Name / Studio</p>
                 <input
+                  class="form-input"
                   type="text"
                   name=""
                   id=""
@@ -223,11 +224,17 @@
               </div>
               <div class="form-grid-div">
                 <p>Project Name</p>
-                <input type="text" name="" id="" placeholder="e.g John & Doe" />
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  class="form-input"
+                  placeholder="e.g John & Doe"
+                />
               </div>
               <div class="form-grid-div">
                 <p>Package</p>
-                <select name="" id="">
+                <select name="" id="" class="form-input">
                   <option value="Instant Teaser">Instant Teaser ($100)</option>
                   <option value="Long Shots"></option>
                 </select>
@@ -238,12 +245,19 @@
                   type="url"
                   name=""
                   id=""
+                  class="form-input"
                   placeholder="upload your footages on Dropbox or Google drive"
                 />
               </div>
               <div class="form-grid-div">
                 <p>Email Address</p>
-                <input type="email" name="" id="" placeholder="@gmail.com" />
+                <input
+                  type="email"
+                  name=""
+                  id=""
+                  class="form-input"
+                  placeholder="@gmail.com"
+                />
               </div>
               <div class="form-grid-div">
                 <p>Sample Link</p>
@@ -251,21 +265,22 @@
                   type="url"
                   name=""
                   id=""
+                  class="form-input"
                   placeholder="upload samples of highlight / documentary film"
                 />
               </div>
             </div>
-            <div class="form-grid-div">
+            <div class="form-grid-div2">
               <p>Special Instructions</p>
               <input
                 type="text"
                 name=""
-                id=""
+                id="form-instructions"
                 cols="30"
                 rows="10"
                 placeholder="share necessary instructions for the project eg. soundtrack, previous samples, preferred software etc. "
               />
-              <input type="button" value="Submit" />
+              <input type="button" value="Submit" id="form-submit" />
             </div>
           </form>
         </div>
@@ -281,13 +296,13 @@
             <h3>Contact No:</h3>
             <p>+1 (502) 234-1220</p>
           </div>
-          <div>
+          <div id="footer-special">
             <span></span>
             <h3>Address:</h3>
             <p>10404, Polo Trail Avenue, Bakersfield, California.</p>
           </div>
         </footer>
-        <div>
+        <div id="last-div">
           <h1>GREY FRAME STUDIOS</h1>
           <p>Copyright © 2022 Grey Frame Studios, All rights reserved.</p>
         </div>
