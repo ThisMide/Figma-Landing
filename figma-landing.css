@@ -216,9 +216,33 @@ nav {
 }
 
 .gallery .gallery-video div {
-  /* height: 200px;
-  width: 200px; */
-  background-color: chartreuse;
+  position: relative;
+}
+
+.gallery .gallery-video .gallery-play {
+  display: flex;
+  width: 156px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 70px;
+  left: 120px;
+  color: white;
+  cursor: pointer;
+}
+
+.gallery .gallery-video div .gallery-pictures {
+  width: 470px;
+  height: 390px;
+  border: none;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.gallery .gallery-video div .gallery-pictures:hover {
+  transform: scale(1.1);
 }
 
 .contact-us {
