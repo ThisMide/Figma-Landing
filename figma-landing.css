@@ -78,6 +78,7 @@ nav {
   text-align: center;
   font-size: 65px;
   font-weight: 700;
+  color: #fff;
 }
 
 .section-one p {
@@ -85,6 +86,7 @@ nav {
   font-size: 18px;
   font-weight: 400;
   width: 745px;
+  color: #fff;
 }
 
 .section-one button {
@@ -199,6 +201,7 @@ nav {
   text-align: center;
   font-size: 24px;
   font-weight: 300;
+  color: #fff;
   /* line-height: 35px; */
   margin: 1px 135px;
 }
@@ -218,7 +221,7 @@ nav {
   align-items: center;
   width: 350px;
   gap: 10px;
-  background-color: aquamarine;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .about .about-list span {
@@ -320,6 +323,10 @@ nav {
   border-radius: 0px 0px 10px 10px;
 }
 
+.form-grid-div2 p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .form-input {
   /* height: 60px;
   width: 450px; */
@@ -339,6 +346,7 @@ nav {
   margin-top: 17px;
   border-radius: 30px;
   border: none;
+  background: linear-gradient(90deg, #fd005b 0%, #bb00fd 100%);
 }
 footer {
   display: flex;
@@ -357,6 +365,7 @@ footer div {
   padding: auto;
   width: 200px;
   height: 70px;
+  color: #fff;
   /* background-color: rgb(48, 145, 112); */
 }
 
